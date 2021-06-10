@@ -12,8 +12,9 @@ const App = () => {
             {/*it is by convention that we use single quote for non JSX element & single quote for JSX.
              Also, single & double works fine at any place.
             */}
-            {/*Below line shows that style is JS object, first {} says it is JS obj, and second {} is the object */}
-             <button style={{"backgroundColor": "blue", "color": "white"}}> {button} </button>
+            {/*Below line shows that style is JS object, first {} says it is JS obj,
+            and second {} is the object */}
+            <button style={{"backgroundColor": "blue", "color": "white"}}> {button} </button>
         </div>
     );
 }
