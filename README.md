@@ -4,11 +4,9 @@
 * show on screen or export
 
 #### For automatic refresh
-* For automatic refresh to reflect changes, insert following into index.js
+* For automatic refresh to reflect changes, create .env file into root folder & insert following into -
  ```
- if(modules.hot) {
-     module.hot.accept();
- }
+FAST_REFRESH=false
  ```
 
 #### Difference JSX and HTML
